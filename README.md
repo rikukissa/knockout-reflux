@@ -1,4 +1,4 @@
-[Knockout.js](knockoutjs.com) with [Flux](https://facebook.github.io/flux/) - architecture
+[Knockout.js](http://knockoutjs.com/) with [Flux](https://facebook.github.io/flux/) - architecture
 =====================
 
 ### Usage
