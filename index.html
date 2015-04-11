@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Knockout + reflux</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <ul data-bind='foreach: users'>
+      <li data-bind='text: name'></li>
+    </ul>
+    <form data-bind="submit: submit">
+      <h3>Lisää uusi käyttäjä</h3>
+      <label>Nimi</label>
+      <input type="text" data-bind="value: inputtedUser" />
+      <button type="submit">Lisää</button>
+    </form>
+  </body>
+  <script src="build/bundle.js"></script>
+</html>
