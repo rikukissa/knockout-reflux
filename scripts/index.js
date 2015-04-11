@@ -1,4 +1,6 @@
-import React from 'react';
-import App from './App';
+'use strict';
 
-React.render(<App />, document.getElementById('root'));
+import ko from 'knockout';
+import ViewModel from './ViewModel';
+
+ko.applyBindings(new ViewModel());

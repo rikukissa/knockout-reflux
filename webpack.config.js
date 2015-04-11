@@ -20,12 +20,12 @@ module.exports = {
     new webpack.NoErrorsPlugin()
   ],
   resolve: {
-    extensions: ['', '.js', '.jsx']
+    extensions: ['', '.js']
   },
   module: {
     loaders: [{
-      test: /\.jsx?$/,
-      loaders: ['react-hot', 'babel'],
+      test: /\.js?$/,
+      loaders: ['babel'],
       include: path.join(__dirname, 'scripts')
     }, {
       test: /\.css$/,

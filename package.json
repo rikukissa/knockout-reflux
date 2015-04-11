@@ -31,13 +31,15 @@
     "babel-core": "^4.7.4",
     "babel-loader": "^4.1.0",
     "css-loader": "^0.9.1",
-    "react-hot-loader": "^1.2.2",
     "style-loader": "^0.9.0",
     "stylus-loader": "^1.0.0",
     "webpack": "^1.7.2",
     "webpack-dev-server": "^1.7.0"
   },
   "dependencies": {
-    "react": "^0.13.0"
+    "knockout": "^3.3.0",
+    "knockout.mapping": "^2.4.3",
+    "react": "^0.13.0",
+    "reflux": "^0.2.7"
   }
 }
